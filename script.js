@@ -4,12 +4,14 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	get(name){
-		 return this._name;
-	}
-	set(age){
-		this._age = age;
-	}
+	 get name() {
+    return this._name;
+  }
+
+  // Setter for age
+  set age(age) {
+    this._age = age;
+  }
 	get age() {
     return this._age;
   }
