@@ -10,6 +10,9 @@ class Person {
 	set(age){
 		this.age = age
 	}
+	get age(){
+		return this.age
+	}
 }
 
 class Student extends Person {
